@@ -161,8 +161,7 @@ let lang = store.get('lang') || ((navigator.language || '').toLowerCase().starts
 /* ================= theme ================= */
 (function theme() {
   const saved = store.get('theme');
-  if (saved) document.documentElement.dataset.theme = saved;
-  else if (matchMedia('(prefers-color-scheme: dark)').matches) document.documentElement.dataset.theme = 'dark';
+  document.documentElement.dataset.theme = saved || 'dark';
   $('#themeBtn').addEventListener('click', () => {
     const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
     document.documentElement.dataset.theme = next;
