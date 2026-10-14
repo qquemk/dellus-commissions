@@ -235,11 +235,9 @@ h2 em, h1 em, .footer-big em, .about-quote em { font-style: italic; color: var(-
 .c2 { width: 44%; aspect-ratio: 598/640; right: 0; top: 0; rotate: 6deg; z-index: 1; }
 .c2::before { background: color-mix(in srgb, var(--sage) 60%, transparent); }
 .c3 { width: 40%; aspect-ratio: 1; left: 0; bottom: 2%; rotate: 4deg; z-index: 3; }
-.c4 { width: 36%; aspect-ratio: 589/640; right: 1%; bottom: 0; rotate: -5deg; z-index: 3; }
-.c4::before { background: color-mix(in srgb, var(--sage) 55%, transparent); rotate: -6deg; }
 .c3::before { background: color-mix(in srgb, var(--blue) 35%, transparent); rotate: 4deg; }
-.hand-note { position: absolute; left: 34%; bottom: -4%; font: 600 1.7rem/1 var(--hand); color: var(--rose-deep); rotate: -6deg; z-index: 4; }
-.hand-arrow { position: absolute; left: 27%; bottom: -1%; width: 56px; color: var(--rose-deep); rotate: -100deg; z-index: 4; opacity: .8; }
+.hand-note { position: absolute; right: 2%; bottom: 8%; font: 600 1.7rem/1 var(--hand); color: var(--rose-deep); rotate: -6deg; z-index: 4; }
+.hand-arrow { position: absolute; right: 22%; bottom: 13%; width: 70px; color: var(--rose-deep); rotate: 160deg; z-index: 4; opacity: .8; }
 
 /* butterflies */
 .butterfly { position: absolute; z-index: 5; width: 70px; height: 59px; filter: drop-shadow(0 10px 10px rgba(40,30,60,.22)); pointer-events: none; }
