@@ -46,12 +46,13 @@ const CONFIG = {
   gallery: [
     { src: 'assets/w04.jpg', w: 598, h: 640, cat: 'portrait', title: 'Morpho' },
     { src: 'assets/w06.jpg', w: 560, h: 640, cat: 'illustration', title: 'Koi' },
-    { src: 'assets/w02.jpg', w: 640, h: 640, cat: 'fanart', title: 'Jinx was here' },
     { src: 'assets/w09.jpg', w: 589, h: 640, cat: 'illustration', title: 'Fern & frog' },
     { src: 'assets/w07.jpg', w: 640, h: 640, cat: 'portrait', title: 'Ginger' },
+    { src: 'assets/w02.jpg', w: 640, h: 640, cat: 'fanart', title: 'Jinx was here' },
     { src: 'assets/w12.jpg', w: 640, h: 640, cat: 'portrait', title: 'Little green friend' },
-    { src: 'assets/w11.jpg', w: 512, h: 640, cat: 'illustration', title: 'Graffiti' },
+    { src: 'assets/w13.jpg', w: 800, h: 864, cat: 'illustration', title: 'Froggy' },
     { src: 'assets/w10.jpg', w: 640, h: 640, cat: 'portrait', title: 'Choker' },
+    { src: 'assets/w11.jpg', w: 512, h: 640, cat: 'illustration', title: 'Graffiti' },
   ],
 
   marquee: {
